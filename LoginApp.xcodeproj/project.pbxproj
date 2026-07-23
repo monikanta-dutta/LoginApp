@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0ED9318D3011E2F0005E9A13 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0ED9318C3011E2F0005E9A13 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0ED9311B3011D8D2005E9A13 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		0ED9310A3011D8D1005E9A13 /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED9311A3011D8D2005E9A13 /* LoginAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED931243011D8D2005E9A13 /* LoginAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED9318C3011E2F0005E9A13 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		0ED931013011D8D1005E9A13 = {
 			isa = PBXGroup;
 			children = (
+				0ED9318C3011E2F0005E9A13 /* .gitignore */,
 				0ED9310C3011D8D1005E9A13 /* LoginApp */,
 				0ED9311D3011D8D2005E9A13 /* LoginAppTests */,
 				0ED931273011D8D2005E9A13 /* LoginAppUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ED9318D3011E2F0005E9A13 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
