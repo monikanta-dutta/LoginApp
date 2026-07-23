@@ -17,5 +17,5 @@ jobs:
           xcodebuild \
             -project LoginApp.xcodeproj \
             -scheme LoginApp \
-            -destination 'platform=iOS Simulator,name=iPhone 16' \
+            -destination 'generic/platform=iOS Simulator' \
             build
